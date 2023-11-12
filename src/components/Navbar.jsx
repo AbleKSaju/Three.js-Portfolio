@@ -9,7 +9,7 @@ import { styles } from "../styles";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(true);
   return (
     <nav
       className={`${
