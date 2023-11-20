@@ -5,6 +5,7 @@ import {
     web,
     javascript,
     typescript,
+    sql,
     html,
     css,
     reactjs,
@@ -19,7 +20,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    stepz,
+    cube,
     jobit,
     tripguide,
     threejs,
@@ -72,10 +74,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -95,6 +97,10 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
+    },
+    {
+      name: "Sql",
+      icon: sql,
     },
     {
       name: "Three JS",
@@ -198,12 +204,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Shoe Shop",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built an e-commerce site using Node.js, MongoDB, Express, and EJS. Implemented secure OTP login via Node-mailer. Features include user profiles, cart, wishlist, invoices, orders, tracking, and sales reports for an enhanced shopping experience.",        
       tags: [
         {
-          name: "react",
+          name: "ejs",
           color: "blue-text-gradient",
         },
         {
@@ -211,33 +217,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: stepz,
+      source_code_link: "https://github.com/AbleKSaju/E-commerse",
     },
     {
-      name: "Job IT",
+      name: "Cube Game",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Immersive 3D Game with dynamic cube controlled via keyboard inputs. Cube responds to gravity and jumps on spacebar press. Scene features with ambient and directional light. Randomly spawning enemy cubes move toward player's cube.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "three.js",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "scss",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: cube,
+      source_code_link: "https://github.com/AbleKSaju/3js-Cube-game",
     },
     {
       name: "Trip Guide",

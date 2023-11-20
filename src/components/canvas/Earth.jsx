@@ -1,14 +1,19 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const contact = useGLTF("./contact/scene.gltf");
+  const contact = useGLTF("./earth/scene.gltf");
 
   return (
-    <primitive object={contact.scene} scale={2.0} position-y={0} rotation-y={0} />
+    <primitive
+      object={contact.scene}
+      scale={2.0}
+      position-y={0}
+      rotation-y={0}
+    />
   );
 };
 
@@ -16,12 +21,13 @@ const EarthCanvas = () => {
   return (
     <Canvas
       shadows
-      frameloop='demand'
+      frameloop="demand"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      color="blue"
       camera={{
-        fov: 40,
-        near: 0.4,
+        fov: 50,
+        near: 0.04,
         far: 200,
         position: [-4, 3, 6],
       }}
@@ -33,13 +39,11 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <ambientLight intensity={5} color='white'/>
-        <directionalLight position={[5,5,7]} color='red'/>
-        <pointLight color='#7EBDE1' position={[5,5,7]} intensity={50}/>
-        <spotLight color='#7EBDE1' position={[5,5,7]} intensity={60}/>
-        
+        <ambientLight intensity={500} color="blue" />
+        <directionalLight position={[5, 5, 7]} color="blue" intensity={300} />
+        <pointLight color="blue" position={[5, 5, 7]} intensity={500} />
+        <spotLight color="black" position={[5, 5, 7]} intensity={600} />
         <Earth />
-
         <Preload all />
       </Suspense>
     </Canvas>
