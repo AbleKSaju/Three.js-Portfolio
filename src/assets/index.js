@@ -1,4 +1,5 @@
-import a from './a.jpeg'
+import a from "./a.jpeg";
+import img from "./img.jpeg";
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -21,7 +22,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import sql from "./tech/sql.png"
+import sql from "./tech/sql.png";
+import kafka from "./tech/kafka.png";
+import express from "./tech/express.png";
+import firebase from "./tech/firebase.png";
+import python from "./tech/python.png";
+import rabbitmq from "./tech/rabbitmq.png";
+import vue from "./tech/vue.png";
+import socket from "./tech/socket.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +38,7 @@ import tesla from "./company/tesla.png";
 
 // import carrent from "./carrent.png";
 import stepz from "./stepz.png";
+import metamedia from "./metamedia.png";
 import cube from "./cube.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -38,16 +47,25 @@ export {
   a,
   logo,
   backend,
+  kafka,
+  metamedia,
   creator,
   mobile,
   web,
   github,
+  express,
+  firebase,
+  python,
+  rabbitmq,
+  socket,
+  vue,
   menu,
   close,
   css,
   docker,
   figma,
   git,
+  img,
   html,
   javascript,
   mongodb,

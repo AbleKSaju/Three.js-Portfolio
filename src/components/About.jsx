@@ -46,11 +46,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skilled self-taught web developer with a passion for creating
-        beautiful and user-friendly websites. I have also learned HTML CSS, SQL,
-        REACT and JavaScript. I am a highly motivated and detail-oriented
-        individual with a strong work ethic. I am also a team player and I am
-        always Willing to help others
+        Highly motivated FULL stack developer proficient in all development
+        stages, from design to deployment. Skilled in feature implementation,
+        testing, and issue resolution. Dedicated to ongoing learning and staying
+        abreast of industry trends. Eager to excel in diverse development roles.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
