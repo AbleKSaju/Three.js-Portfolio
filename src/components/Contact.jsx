@@ -28,10 +28,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
     emailjs
       .send(
-        'service_tkdcbxs','template_hlmmnyk',
+        'service_tkdcbxs', // Your service ID
+        'template_hlmmnyk', // Your template ID
         {
           from_name: form.name,
           to_name: "Able K Saju",
@@ -39,13 +40,16 @@ const Contact = () => {
           to_email: "ableksaju3@gmail.com",
           message: form.message,
         },
-        'jNGxuMeJrwzIAuRo0'
+        
+
+        'rhtzqmscmdelabow' // Your public key (user ID)
       )
       .then(
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
+  
+          // Reset form fields
           setForm({
             name: "",
             email: "",
@@ -55,7 +59,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
+  
           alert("Ahh, something went wrong. Please try again.");
         }
       );

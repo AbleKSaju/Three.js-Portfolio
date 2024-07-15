@@ -32,6 +32,8 @@ import vue from "./tech/vue.png";
 import socket from "./tech/socket.png";
 
 import meta from "./company/meta.png";
+import wahni from "./company/wahni.png";
+import brototype from "./company/brototype.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -65,6 +67,8 @@ export {
   docker,
   figma,
   git,
+  wahni,
+  brototype,
   img,
   html,
   javascript,

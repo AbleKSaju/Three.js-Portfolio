@@ -33,6 +33,8 @@ import {
   vue,
   socket,
   metamedia,
+  brototype,
+  wahni,
 } from "../assets";
 
 export const navLinks = [
@@ -142,55 +144,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Mern Stack Developer",
+    company_name: "Brototype",
+    icon: brototype,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2022 - july 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A learning platform where we undertake projects under the guidance of industry experts.",
+      "Tasks are divided into manageable steps, prioritizing key features, and progress is reviewed by experts who provide feedback and learning opportunities.",
+      "Meeting deadlines is crucial; failure to complete tasks on time may result in termination from the program.",
+      "Brototype offers practical experience akin to working in a real company, enhancing skills and staying updated with industry technologies.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Typescript Developer",
+    company_name: "Wahni",
+    icon: wahni,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "july 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining ERP software solutions. They offer a variety of services including Business Consulting, E-Commerce, ERP Implementation, and Workflow Automation.",
+      "Working with a team of professionals at Wahni IT Solutions to deliver tailored ERP solutions that improve efficiency and productivity for various industries.",
+      "Equip users with the skills to navigate the new ERP ecosystem confidently through interactive sessions and a 'train-the-trainer' approach, ensuring self-sustainability.",
+      " Facilitate a seamless transition to the live environment, enabling teams to unlock the full potential of the ERP system and drive operational efficiency",
     ],
   },
 ];
